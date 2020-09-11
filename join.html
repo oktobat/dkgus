@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=2.0">
+    <title>PAHCOMPANY</title>
+    <link rel="stylesheet" href="css/join.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css
+    ">
+    <!-- <script src="js/prefixfree.min.js"></script> -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>    
+    <![endif]-->
+</head>
+<body>
+    
+    <header id="header">
+        <div class="toph1NavWrap">
+            <div class="toph1Nav row">
+                <h1>
+                    <a href="index.html">PAH<span>COMPANY</span></a>
+                </h1>
+                <div class="nav">
+                    <ul class="depth1">
+                        <li><a href="company01.html">COMPANY</a>
+                            <ul class="depth2">
+                                <li><a href="company01.html">회사개요</a></li>
+                                <li><a href="company02.html">CEO인사말</a></li>
+                                <li><a href="company03.html">오시는길</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="business01.html">BUSINESS</a>
+                            <ul class="depth2">
+                                <li><a href="business01.html">사업분야01</a></li>
+                                <li><a href="business02.html">사업분야02</a></li>
+                                <li><a href="business03.html">사업분야03</a></li>
+                                <li><a href="business04.html">사업분야04</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">PRODUCT</a>
+                            <ul class="depth2">
+                                <li><a href="#">제품안내01</a></li>
+                                <li><a href="#">제품안내02</a></li>
+                                <li><a href="#">제품안내03</a></li>
+                                <li><a href="#">제품안내04</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">COMMUNITY</a>
+                            <ul class="depth2">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">홍보자료</a></li>
+                                <li><a href="#">채용안내</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="customer01.html">CUSTOMER</a>
+                            <ul class="depth2">
+                                <li><a href="customer01.html">1:1문의</a></li>
+                                <li><a href="customer02.html">묻고답하기</a></li>
+                                <li><a href="customer03.html">FAQ</a></li>
+                            </ul>
+                        </li>
+                    </ul>                    
+                </div>
+                <div class="toplogin">
+                    <a href="login.html"><i class="fas fa-user"></i></a>
+                    <a href="company03.html"><i class="fas fa-map-marker-alt"></i></a>
+                </div>
+            </div>
+            <div class="decoBox"></div>
+        </div>
+    </header>
+
+    <section id="section">
+        <div class="subVisual">
+            <div class="overlay">
+                <div class="text">
+                    <h2>MEMBER</h2>
+                    <p>HOME&nbsp;&nbsp;>&nbsp;&nbsp;회원가입</p>
+                </div>
+                <div class="subnav">
+                    <div class="subnav_box">
+                        <a href="login.html">로그인</a>
+                        <a href="join.html" class="on">회원가입</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subTit row">
+            <h2>회원가입</h2>
+            <p>PAHCOMPANY 홈페이지 회원가입 페이지 입니다.</p>
+        </div>
+        <div class="joinWrap row">
+            <div class="commentBox">
+                <p>회원가입을 위해서 아래의 양식에 있는 내용을 입력해 주셔야 합니다.</p>
+                회원님의 개인정보를 신중하게 보호하려 노력하고 있으며 회원님의 동의 없이는 기재하신 회원정보가 누출되지 않습니다.<br>
+자세한 내용은 개인정보 보호정책에서 확인하세요.
+            </div>           
+            <div class="joinBox">
+                <h3>기본정보</h3>
+                <form action="#" method="post" class="join_form">
+                    <fieldset>
+                        <legend>회원가입기본정보</legend>
+                        <ul class="join_list">
+                            <li>
+                                <div class="label_box">
+                                    <label for="id_lbl" class="tit_lbl pilsoo">아이디</label>
+                                </div>
+                                <div class="input_box">
+                                    <input type="text" id="id_lbl" class="w150" required
+                                    >
+                                </div>
+                                <button type="submit">아이디 중복확인</button>
+                                <span>(영문 소문자, 숫자4~16자)</span>
+                            </li>
+                            <li>
+                                <div class="label_box">
+                                    <label for="pw_lbl" class="tit_lbl pilsoo">비밀번호</label>
+                                </div>
+                                <div class="input_box">
+                                    <input type="password" id="pw_lbl" class="w150" required
+                                    >
+                                </div>
+                                <span>영문/숫자/특수문자 조합으로 8~16자리. 첫글자는 영문자로 사용</span>
+                            </li>
+                            <li>
+                                <div class="label_box">
+                                    <label for="pwOk_lbl" class="tit_lbl pilsoo">비밀번호 확인</label>
+                                </div>
+                                <div class="input_box">
+                                    <input type="password" id="pwOk_lbl" class="w150" required
+                                    >
+                                </div>
+                            </li>
+                            <li>
+                                <div class="label_box">
+                                    <label for="name_lbl" class="tit_lbl pilsoo">이름</label>
+                                </div>
+                                <div class="input_box">
+                                    <input type="text" id="name_lbl" class="w150" required
+                                    >
+                                </div>
+                            </li>
+                            <li>
+                                <div class="label_box">
+                                    <label for="email_lbl"class="tit_lbl pilsoo">이메일</label>
+                                </div>
+                                <div class="input_box">
+                                    <input type="text" id="email_lbl" class="w150" required
+                                    >
+                                </div>
+                                <span>@</span>
+                                <div class="input_box email_box">
+                                    <input type="text" id="domain" class="w150" disabled>
+                                    <select id="email_select" class="w150">
+                                        <option value="nochoice">이메일선택</option>
+                                        <option value="naver.com">naver.com</option>
+                                        <option value="hanmail.net">hanmail.net</option>
+                                        <option value="hotmail.com">hotmail.com</option>
+                                        <option value="gmail.com">gmail.com</option>
+                                        <option value="self">직접입력</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="label_box">
+                                    <label for="email_send" class="tit_lbl">이메일 수신여부</label>
+                                </div>
+                                <div class="radio_box">
+                                    <input type="radio" name="email" value="send" id="email_send">
+                                    <label for="email_send">수신</label>
+                                    <input type="radio" name="email" value="nosend" id="email_nosend">
+                                    <label for="email_nosend">수신안함</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="label_box">
+                                    <label for="pw_question" class="tit_lbl">비밀번호 확인 시 질문</label>
+                                </div>
+                                <div class="input_box">
+                                    <select id="pw_question" class="w250">
+                                        <option value="nochoice">질문 선택</option>
+                                        <option value="question1">기억에 남는 추억의 장소는?</option>
+                                        <option value="question2">자신의 인생 좌우명은?</option>
+                                        <option value="question3">자신의 보물 제 1호는?</option>
+                                        <option value="question4">가장 기억에 남는 선생님 성함은?</option>
+                                        <option value="question5">인상깊게 읽은 책 이름은?</option>
+                                        <option value="self">직접 입력</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="label_box">
+                                    <label for="pw_answer" class="tit_lbl">비밀번호 확인 시 답변</label>
+                                </div>
+                                <div class="input_box">
+                                    <input type="text" id="pw_answer" class="w250">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="label_box">
+                                    <label for="birthday_lbl" class="tit_lbl">생년월일</label>
+                                </div>
+                                <div class="input_box">
+                                    <input type="text" id="birthday_lbl" class="w150" placeholder="ex : 940322">
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="btn">
+                            <button type="submit">확인</button>
+                            <button type="reset">취소</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <footer id="footer">
+        <div class="footMenu">
+            <a href="#none">HOME</a>
+            <a href="#none">회사소개</a>
+            <a href="#none">개인정보보호정책</a>
+            <a href="#none">이메일무단수집거부</a>
+            <a href="#none">묻고답하기</a>
+            <a href="#none">오시는길</a>
+        </div>
+        <div class="comInfo">
+            <div class="sns">
+                <a href="#none"><i class="fab fa-facebook-f"></i></a>
+                <a href="#none"><i class="fab fa-blogger-b"></i></a>
+                <a href="#none"><i class="fab fa-instagram"></i></a>
+                <a href="#none"><i class="fas fa-comment-dots"></i></a>
+            </div>
+            <div class="bizInfo">
+                회사 : PAHCOMPANY, 주소 : 서울시 성북구 장월로4길 51-7 A동 202호, 대표 : 김성용,
+                <br>고객지원 : 010-2709-0828, FAX : 070-777-5555, EMAIL : fivestone55@daum.net, 사업자등록번호 : 780-42-00047,
+                <br>COPYRIGHT(C) 2020 PAHCOMPANY. ALL RIGHT RESERVED.
+            </div>
+        </div>
+    </footer>
+
+    <div class="goTop">
+        <a href="#">TOP</a>
+        <span class="blind">맨위로</span>
+    </div>
+
+</body>
+</html>

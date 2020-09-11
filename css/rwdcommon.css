@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1180px) {
+.row {width: 100%; padding: 0 10px;}
+.toph1Nav h1 {width: 60%;}
+.toph1Nav .lognav-box {display: block; top: 100%; width: 100%; transform: translateY(0);}
+.toph1Nav .nav {width: 100%; transform: translateY(0); background: rgba(0,0,0,.9); margin-left: 0;}
+.toph1Nav .nav .depth1 {display: block}
+.toph1Nav .nav .depth1 > li {border-bottom: none; display: block;}
+.toph1Nav .nav .depth1 > li > a {padding: 10px 15px; line-height: 35px; transition: all 0.3s}
+.toph1Nav .nav .depth2 {display: block;}
+.toplogin {background: rgba(0,0,0,.9); width: 100%; text-align: center; border-top: 1px solid rgba(255,255,255,.15); border-bottom: 1px solid rgba(255,255,255,.15);}
+.toplogin a {display: inline-block; width: 50%; line-height: 55px; margin-left: 0; transition: all 0.3s}
+.toplogin a i {padding: 0 10px;}
+/* hover */
+.toplogin a:hover {background: #a84142;}
+.toph1Nav .nav .depth1 > li:hover:before {display: none;}
+.toph1Nav .nav .depth1 > li:hover > a {background: #a84142;}
+/* open-nav */
+.toph1Nav .open-nav {display: block; position: absolute; top: 50%; right: 10px; transform: translateY(-50%); font-size: 25px; color: rgba(255,255,255,0.7); width: 25px;}
+.toph1Nav .open-nav span {display: block; width: 25px; height: 3px; background: rgba(255,255,255,.7); border-radius: 3px; margin-top: 4px; transition: all 0.5s;}
+.toph1Nav .open-nav span:nth-of-type(1) {margin-top: 0;}
+.toph1Nav.on .open-nav span:nth-of-type(2) {display: none;}
+.toph1Nav.on .open-nav span:nth-of-type(1) {transform: rotate(45deg); position: absolute; left: 0;}
+.toph1Nav.on .open-nav span:nth-of-type(3) {transform: rotate(-45deg); position: absolute; top: -4px; left: 0;}
+.
+
+.slide {height: 508px;}
+.slide-outer .text h2 {font-size: 50px;}
+}
+
+
+@media only screen and (max-width: 800px) {
+.toph1Nav {height: 75px;}
+.toph1Nav h1 {line-height: 75px;}
+
+.slide {height: 408px;}
+.slide-outer .text h2 {font-size: 45px;}
+}
+

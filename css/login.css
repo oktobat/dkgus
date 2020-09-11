@@ -1,0 +1,26 @@
+@charset "utf-8";
+@import "reset.css";
+@import "common.css";
+
+.subVisual {height: 286px; background: url(../images/sub-visual01.jpg); background-size: cover; position: relative;}
+.subVisual .overlay {position: absolute; left: 0; right: 0; top: 0; bottom: 0; background: rgba(0,0,0,0.5);}
+.subVisual .text {position: absolute; color: #fff; text-align: center; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.subVisual .text h2 {font-size: 45px; text-shadow: 0 1px 2px rgba(0, 0, 0, .2); font-weight: normal;}
+.subVisual .text p {font-size: 13px; color: rgba(255,255,255,0.8); padding-top: 6px;}
+.subVisual .subnav {position: absolute; height: 43px; bottom: 0; border-top: 1px solid rgba(255,255,255,0.2); width: 100%;}
+.subVisual .subnav_box {position: absoulte;line-height: 43px; text-align: center; margin: 0 auto; color: #fff; font-size: 14px;}
+.subVisual .subnav_box a {display: inline-block; padding: 0 20px; position: relative;}
+.subVisual .subnav_box a.on:before {content: ''; position: absolute; width: 100%; height: 2px; background: #a84142; top: -1px; left: 0; right: 0;}
+
+.subTit {padding: 60px 0; text-align: center; border-bottom: 2px solid #eaeaea;}
+.subTit h2 {font-size: 30px;}
+.subTit p {font-size: 14px; color: #777; padding-top: 10px;}
+
+.login {padding: 62px 0 98px;}
+.login .loginform {width: 752px; margin: 0 auto; background: #f5f5f5; border: 1px solid #d5d5d5; border-top: 2px solid #000; padding: 87px 0 77px; text-align: center;}
+.login .loginform label {font-size: 12px; text-align: right; font-weight: bold; width: 83px; line-height: 37px; height: 37px; padding-right: 34px; display: inline-block;}
+.login .loginform input {width: 542px; height: 37px; border: 1px solid #d5d5d5; padding: 0 1em;}
+.login .loginform input:nth-of-type(2),
+.login .loginform label:nth-of-type(2) {margin: 5px 0 20px;}
+.login .loginform button {width: 142px; height: 37px; background: #333; color: #fff; margin: 20px 0 35px;}
+.login .loginform .login_btn a {color: #777; font-size: 12px; border: 1px solid #ccc; padding: 10px 20px; display: inline-block; margin: 0 1px;}
